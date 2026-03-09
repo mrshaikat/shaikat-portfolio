@@ -75,7 +75,7 @@ export const projects: Project[] = [
       'Enterprise-grade platform for customer and property management featuring multi-role authentication, real-time analytics dashboards, and integrated payment processing. Engineered for scale with event-driven background jobs and robust security controls.',
     tech: [
       'React + TypeScript', 'Node.js', 'Express', 'BullMQ + Redis',
-      'Azure AD SSO', 'JWT + RBAC', 'Maya / Paynamics / PayMongo', 'SharePoint', 'MySQL',
+      'Azure AD SSO', 'JWT + RBAC', 'Prisma ORM', 'Payment Gateways', 'SharePoint', 'MySQL',
     ],
     role: 'Full Stack Developer',
     roleColor: 'accent',
