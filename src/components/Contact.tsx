@@ -5,7 +5,7 @@ import { contactLinks } from '../data'
 export default function Contact() {
   const titleRef = useScrollReveal()
   const descRef = useScrollReveal()
-  const emailRef = useScrollReveal()
+  const emailRef = useScrollReveal<HTMLAnchorElement>()
 
   return (
     <section id="contact" className="bg-surface text-center" style={{ padding: '120px 60px' }}>
